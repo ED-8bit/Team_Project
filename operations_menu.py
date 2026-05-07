@@ -19,16 +19,16 @@ def menu():
 
         if choice == 1:
             print("Вы выбрали 1-ю опцию")
-            print()
+            return choice
         elif choice == 2:
             print("Вы выбрали 2-ю опцию")
-            print()
+            return choice
         elif choice == 3:
             print("Вы выбрали 3-ю опцию")
-            print()
+            return choice
         elif choice == 4:
             print("Вы выбрали 3-ю опцию")
-            print()
+            return choice
         elif choice == 5:
             print("Выход из программы...")
             break
